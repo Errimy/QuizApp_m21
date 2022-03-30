@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_marginTop="80dp"
+    android:orientation="vertical"
+    tools:context=".ResultatActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre resultat est:"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="20"
+        android:textAlignment="center"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="100"
+        android:layout_width="260dp"
+        android:layout_gravity="center"
+        android:layout_height="278dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="241dp"
+        android:progressDrawable="@drawable/circlepb"/>
+
+    <Button
+        android:id="@+id/bPartager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Partager"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <Button
+        android:id="@+id/bAccueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Accueil"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="615dp" />
+</LinearLayout>
